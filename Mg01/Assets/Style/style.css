@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid #000;
+    width: 100%;
+    margin: auto;
+    margin-top: 15vh;
+}
+
+td {
+    border: 2px solid #000;
+    text-align: justify;
+    padding: 10px;
+}
+
+th {
+    border: none;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #ace2ec;
+}
+
+@media screen and (max-width: 999px) {
+    table {
+        width: 280px;
+        max-height: 653px;
+    }
+    th, td {
+        padding: auto;
+    }
+}
